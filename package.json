@@ -1,0 +1,40 @@
+{
+  "name": "reddit-random-image-server",
+  "version": "1.0.0",
+  "description": "A simple web server that returns a random picture from a Subreddit",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "test:lint": "eslint src",
+    "test": "npm run test:lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmammino/reddit-random-image-server.git"
+  },
+  "keywords": [],
+  "author": "Luciano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmammino/reddit-random-image-server/issues"
+  },
+  "homepage": "https://github.com/lmammino/reddit-random-image-server#readme",
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "pino": "^6.3.2",
+    "pino-http": "^5.2.0",
+    "reddit-simple": "^2.1.1",
+    "undici": "^1.0.3"
+  }
+}
