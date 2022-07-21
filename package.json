@@ -35,6 +35,6 @@
     "pino": "^6.3.2",
     "pino-http": "^5.2.0",
     "reddit-simple": "^2.1.1",
-    "undici": "^1.0.3"
+    "undici": "^5.8.0"
   }
 }
